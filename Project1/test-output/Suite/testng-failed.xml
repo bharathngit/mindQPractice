@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="appURL" value="http://opensource.demo.orangehrmlive.com"/>
+  <parameter name="browserType" value="chrome"/>
+  <test name="Test(failed)">
+    <parameter name="appURL" value="http://opensource.demo.orangehrmlive.com"/>
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="com.testng.basics.pom.POMDriverTestNG">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openApp"/>
+          <include name="addEmp"/>
+        </methods>
+      </class> <!-- com.testng.basics.pom.POMDriverTestNG -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
