@@ -1,0 +1,18 @@
+<suite name="smoke" parallel = "tests">
+	<test name="cycle1testChrome">
+
+		<parameters>
+			<parameter name="browsertype" value="chrome" />
+			<parameter name="appUrl"
+				value="http://opensource.demo.orangehrmlive.com" />
+			<parameter name="nurl" value = "http://192.168.0.3:5555/wd/hub" />
+		</parameters>
+		
+		<classes>
+			<class name="com.tng.ohrm.OhrmAddEmployee_Parameters_Grid" />
+
+		</classes>
+
+	</test>
+
+</suite>
